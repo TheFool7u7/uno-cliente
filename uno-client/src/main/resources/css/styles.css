@@ -1,0 +1,68 @@
+
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-font-family: "Arial";
+}
+
+.button {
+    -fx-background-color: #4d79ff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #3366ff;
+}
+
+.button:pressed {
+    -fx-background-color: #1a53ff;
+}
+
+.label {
+    -fx-font-size: 14px;
+}
+
+.text-field, .text-area {
+    -fx-background-radius: 5;
+}
+
+.text-area {
+    -fx-font-size: 13px;
+}
+
+#lblTurno {
+    -fx-font-size: 16px;
+}
+
+#lblColorActual {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#btnIniciarJuego {
+    -fx-background-color: #28a745;
+}
+
+#btnIniciarJuego:hover {
+    -fx-background-color: #218838;
+}
+
+#btnUNO {
+    -fx-background-color: #dc3545;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+#btnUNO:hover {
+    -fx-background-color: #c82333;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
